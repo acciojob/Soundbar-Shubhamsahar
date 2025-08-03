@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn, .stop {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.stop {
+    background-color: #dc3545;
+}
+
+.btn:hover, .stop:hover {
+    opacity: 0.8;
+}
+
